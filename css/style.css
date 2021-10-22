@@ -3,6 +3,7 @@
 *{
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Varela Round', sans-serif;
 }
 
 body{
@@ -12,21 +13,21 @@ body{
             rgba(28,28,28,1) 50%, rgba(28,28,28,1) 70%, rgba(0,0,0,1) 100%);
 }
 
-p, h1, h2{
+h1, h2, h3, a{
   color: white;
   text-align: center;
-  font-family: 'Varela Round', sans-serif;
 }
 
-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+p{
+  color: white;
 }
 
 .rotate{
     padding: 5%;
     animation: rotation 80s infinite linear;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @keyframes rotation {
@@ -40,8 +41,14 @@ img{
 
 .quadro{
     margin: 0% 15% 0% 15%;
-    border-radius: 25px 25px 25px 25px;
     padding: 2%;
+}
+
+.quadro_fundo{
+  margin: 0% 15% 0% 15%;
+  border-radius: 25px 25px 25px 25px;
+  background-color: rgba(0, 0, 132, 50%);
+  padding: 2%;
 }
 
 .menu{
@@ -57,7 +64,6 @@ img{
   color: white;
   padding: 10px;
   text-decoration: none;
-  font-family: 'Varela Round', sans-serif;
   display: inline-block;
   border-radius: 25px 25px 25px 25px;
   transition: background .5s;
