@@ -47,20 +47,20 @@ p{
 .quadro_fundo{
   margin: 0% 15% 0% 15%;
   border-radius: 25px 25px 25px 25px;
-  background-color: rgba(0, 0, 132, 50%);
+  border: 2px solid #ffffff;
   padding: 2%;
 }
 
-.menu{
+#menu{
   list-style-type: none;
   text-align: center;
 }
 
-.menu ul li{
+#menu ul li{
   display: inline;
 }
 
-.menu ul li a{
+#menu ul li a{
   color: white;
   padding: 10px;
   text-decoration: none;
@@ -69,7 +69,15 @@ p{
   transition: background .5s;
 }
 
-.menu ul li a:hover{
+#menu ul li:last-child a{
+  float: right;
+}
+
+#menu ul li:first-child a{
+  float: left;
+}
+
+#menu ul li a:hover{
   background-color: #2249c9;
   border-radius: 25px 25px 25px 25px;
 }
