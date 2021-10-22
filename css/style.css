@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+*{
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body{
     margin: 0;
     background: rgb(0,0,0);
@@ -5,12 +12,20 @@ body{
             rgba(28,28,28,1) 50%, rgba(28,28,28,1) 70%, rgba(0,0,0,1) 100%);
 }
 
-p, h1{
+p, h1, h2{
   color: white;
   text-align: center;
+  font-family: 'Varela Round', sans-serif;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .rotate{
+    padding: 5%;
     animation: rotation 80s infinite linear;
 }
 
@@ -24,18 +39,30 @@ p, h1{
   }
 
 .quadro{
-    background-color:#1d378c;
+    background-color:#0d226a;
     margin: 0% 15% 0% 15%;
     border-radius: 25px 25px 25px 25px;
     padding: 2%;
 }
 
-.topbar{
-  overflow: hidden;
-  background-color: #1d378c;
+.menu{
+  list-style-type: none;
+  text-align: center;
 }
 
-.topbar p{
-  font-size: 20px ;
+.menu ul li{
+  display: inline;
+}
+
+.menu ul li a{
+  color: white;
+  padding: 10px;
   text-decoration: none;
+  font-family: 'Varela Round', sans-serif;
+  display: inline-block;
+  transition: background .5s;
+}
+
+.menu ul li a:hover{
+  background-color: #2249c9;
 }
