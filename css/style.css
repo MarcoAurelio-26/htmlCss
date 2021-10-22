@@ -59,9 +59,11 @@ img{
   text-decoration: none;
   font-family: 'Varela Round', sans-serif;
   display: inline-block;
+  border-radius: 25px 25px 25px 25px;
   transition: background .5s;
 }
 
 .menu ul li a:hover{
   background-color: #2249c9;
+  border-radius: 25px 25px 25px 25px;
 }
