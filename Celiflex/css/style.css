@@ -8,6 +8,7 @@ label{
     text-align: start;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
+    font-size: 14px;
 }
 
 body{
@@ -17,7 +18,19 @@ body{
     display: block;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 4%;
 }
+main{  
+    margin-top: 4%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px 10px 10px 10px;
+    border: solid 2px;
+    background-color: white;  
+    max-width: 45%;
+}
+ 
 .login-container{
     flex-direction: column;
     display: flex;
@@ -30,4 +43,17 @@ body{
     display: flex;
     justify-items: center;
     align-items: center;
+    padding: 30px; 
+}
+
+.login-container form label{
+    margin-right: auto;
+    padding-top: 10%;
+}
+
+.text-area{
+    border: solid gray 1px;
+    border-radius: 8px 8px 8px 8px;
+    width: 100%;
+    height: 30px;
 }
